@@ -1,4 +1,3 @@
-export default function(cb){
+export default function(){
   console.log("completing sub-task")
-  cb()
 }
