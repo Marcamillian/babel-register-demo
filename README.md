@@ -9,3 +9,5 @@ Find a way to user import statements on node js
 -  [x] https://catalin.me/using-gulp-4-with-es6-babel/
   - didn't seem to define babel anywhere
   - errors on the first import statement
+- [x] https://babeljs.io/docs/en/babel-register/
+  - Doesn't seem to work
