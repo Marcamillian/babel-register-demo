@@ -13,3 +13,4 @@ exports.default = (cb)=>{
 }
 
 exports.build = gulp.series( scripts )
+exports.dev = gulp.series( server )
