@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "use_import": "gulp --gulpfile tasks"
+    "use_import": "gulp default --gulpfile tasks",
+    "build": "gulp build --gulpfile tasks"
   },
   "author": "Marc Vousden",
   "license": "MIT",
@@ -15,6 +16,9 @@
     "gulp": "^4.0.0"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.4.3"
+    "@babel/preset-env": "^7.4.3",
+    "browser-sync": "^2.26.3",
+    "webpack": "^4.30.0",
+    "webpack-dev-middleware": "^3.6.2"
   }
 }
